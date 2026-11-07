@@ -1,10 +1,10 @@
 {
-  "date": null,
-  "taiex": null,
-  "change": null,
-  "trade_value": null,
-  "updated_at": null,
-  "attempted_at": null,
+  "attempted_at": "2026-11-07T15:13:44+00:00",
+  "change": -1873.08,
+  "date": "2026-11-06",
   "error": null,
-  "source": "https://openapi.twse.com.tw/v1/exchangeReport/FMTQIK"
+  "source": "https://openapi.twse.com.tw/v1/exchangeReport/FMTQIK",
+  "taiex": 39701.64,
+  "trade_value": 1321071858650,
+  "updated_at": "2026-11-07T15:13:44+00:00"
 }
