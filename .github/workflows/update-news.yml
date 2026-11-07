@@ -9,6 +9,7 @@ on:
       - '.github/workflows/update-news.yml'
       - 'scripts/update_official_news.py'
       - 'scripts/update_market_close.py'
+      - 'tests/test_data_integrity.py'
 permissions:
   contents: write
 concurrency:
@@ -20,6 +21,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Verify official source parsing and security rules
+        run: python3 -m unittest discover -s tests -v
       - name: Refresh official finance headlines
         run: |
           python3 scripts/update_official_news.py
