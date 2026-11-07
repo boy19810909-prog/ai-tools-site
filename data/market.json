@@ -1,0 +1,10 @@
+{
+  "date": null,
+  "taiex": null,
+  "change": null,
+  "trade_value": null,
+  "updated_at": null,
+  "attempted_at": null,
+  "error": null,
+  "source": "https://openapi.twse.com.tw/v1/exchangeReport/FMTQIK"
+}
