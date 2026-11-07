@@ -98,6 +98,19 @@ footer{border-top:1px solid var(--line);padding:34px 0 42px;background:white;mar
 .news-category{border-radius:999px;background:#edf5fc;color:#174968;font-size:13px;font-weight:800;padding:4px 10px}
 .news-date-detail{font-size:13px;color:#546a6c}
 @media(max-width:480px){.retire-ledger{padding:12px}.retire-ledger summary{font-size:16px}.retire-ledger table{font-size:13px}}
+.twse-close{padding:23px;border:1px solid #d3e5de;border-radius:22px;background:#f0f9f4;margin:0 0 27px}
+.twse-close-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.twse-close h2{font-size:25px;line-height:1.45;margin:4px 0 6px;color:#15544c}
+.twse-close-head p{margin:0;color:#4d6765}
+.twse-close-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+.twse-close-metrics>div{padding:15px 17px;border-radius:14px;background:white;border:1px solid #d9e9e0;min-width:0}
+.twse-close-metrics span{display:block;font-size:14px;font-weight:750;color:#426764;margin-bottom:7px}
+.twse-close-metrics strong{font-size:clamp(19px,3vw,28px);font-variant-numeric:tabular-nums;color:#164d48;overflow-wrap:anywhere}
+.twse-close-metrics small{display:inline-block;margin-left:5px;color:#4a6463}
+.twse-close-status{font-size:14px;color:#49615e;line-height:1.7;margin:0 0 8px}
+.twse-close-status.warning{color:#a04229;font-weight:750}
+.twse-close>a{font-size:14px;font-weight:850}
+@media(max-width:720px){.twse-close{padding:16px}.twse-close-metrics{grid-template-columns:1fr;gap:8px}.twse-close-metrics>div{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:baseline}.twse-close-metrics span{margin:0}.twse-close-metrics strong{font-size:20px}.twse-close-metrics small{margin:0}.twse-close h2{font-size:22px}}
 </style>
 </head>
 <body>
@@ -115,7 +128,9 @@ footer{border-top:1px solid var(--line);padding:34px 0 42px;background:white;mar
 <!-- LEARN -->
 <div class="view" id="view-learn"><div class="wrap"><div class="pagehero"><div class="crumb">首頁 ／ 投資學堂</div><h1>從零開始，把投資學得有畫面。</h1><p>每次只學一個觀念。點選圖表、看例子，再答一題確認自己學會了。</p></div><div class="learning-intro"><div><strong>不確定從哪裡學？先用 5 步看懂 K 線</strong><p>從「一根 K 線代表什麼」開始，接著用紅綠比較、影線、連續走勢、互動題目建立觀念。每一步都有圖和練習。</p></div><button class="btn primary" id="start-k-course" type="button">開始 K 線入門課 →</button></div><div class="learn-layout"><aside><div class="lessonlist" id="lesson-list" aria-label="選擇學習單元"></div><p class="fine" style="margin:13px 4px">手機可左右滑動切換學習單元。所有教學價格與圖形皆為示意，非投資標的推薦。</p></aside><div class="card lesson-content" id="lesson-content" aria-live="polite"></div></div><div class="quizwrap" id="quiz-box"><span class="overline">1 分鐘小測驗</span><h2 style="font-size:25px;margin:5px 0">學過的觀念，試著回答</h2><p id="quiz-q" style="margin:0"></p><div class="quizopts" id="quiz-opts"></div><div class="quiz-feedback" id="quiz-feedback" role="status"></div><button class="btn light smallbtn" id="next-quiz" style="margin-top:13px">下一題 ↻</button></div></div></div>
 <!-- MARKET -->
-<div class="view" id="view-market"><div class="wrap"><div class="pagehero"><div class="crumb">首頁 ／ 市場雷達</div><h1>想知道市場正在發生什麼，從可靠來源開始。</h1><p>行情、新聞與政策分開看，避免只看標題就做決定。</p></div><section class="news-hub" aria-labelledby="news-hub-title">
+<div class="view" id="view-market"><div class="wrap"><div class="pagehero"><div class="crumb">首頁 ／ 市場雷達</div><h1>想知道市場正在發生什麼，從可靠來源開始。</h1><p>行情、新聞與政策分開看，避免只看標題就做決定。</p></div>
+<section class="twse-close" aria-labelledby="twse-close-title"><div class="twse-close-head"><div><span class="overline">臺灣證券交易所｜官方盤後資訊</span><h2 id="twse-close-title">台股最近一次收盤</h2><p>不是即時行情；只顯示已驗證的最近交易日數字。</p></div><span class="chip" id="twse-close-date">正在讀取…</span></div><div class="twse-close-metrics"><div><span>加權股價指數</span><strong id="twse-close-index">—</strong><small>點</small></div><div><span>當日漲跌</span><strong id="twse-close-delta">—</strong><small>點</small></div><div><span>上市市場成交金額</span><strong id="twse-close-value">—</strong><small>億元</small></div></div><p class="twse-close-status" id="twse-close-status" role="status">官方資料讀取中…</p><a href="https://openapi.twse.com.tw/v1/exchangeReport/FMTQIK" target="_blank" rel="noopener noreferrer">官方原始資料 ↗</a></section>
+<section class="news-hub" aria-labelledby="news-hub-title">
 <div class="news-hub-head"><div><span class="overline">官方資料｜排程自動更新</span><h2 id="news-hub-title">現在市場有哪些新消息？</h2><p>直接在這裡閱讀官方消息，搭配新手解讀提示；內容限於官方公開的標題與摘要，不會假裝已閱讀全文。這裡呈現發生的事，不預測股價。</p></div><span class="chip gold" id="news-sync-label">正在讀取資料…</span></div>
 <div class="news-stale-warning" id="news-stale-warning" role="status" hidden>資料可能過期，請先確認文章日期與原始來源。</div>
 <div id="news-grid" class="news-grid" aria-live="polite"><div class="news-item"><h3>載入官方新聞中…</h3><p>如果資料暫時無法取得，會顯示更新狀態，不會拿舊聞當今天的新聞。</p></div></div>
@@ -373,6 +388,23 @@ function officialHeadlineTip(title){
  if(/上市|上櫃|承銷|證券/i.test(s))return ['上市／企業公告','閱讀提示：確認公司或商品名稱、生效日期與適用範圍，重要資訊再點官方原文核對。'];
  return ['官方公告','閱讀提示：先確認發布日期、公告單位與適用範圍，避免把一般事件當作買賣訊號。'];
 }
+function initMarketClose(){
+ const label=$('#twse-close-date'),score=$('#twse-close-index'),change=$('#twse-close-delta'),volume=$('#twse-close-value'),status=$('#twse-close-status');
+ const fail=txt=>{label.textContent='尚無已核驗收盤';score.textContent='—';change.textContent='—';volume.textContent='—';status.classList.add('warning');status.textContent=txt};
+ fetch('./data/market.json?t='+Math.floor(Date.now()/1800000),{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('network');return r.json()}).then(data=>{
+  const num=Number(data.taiex),delta=Number(data.change),value=Number(data.trade_value),day=new Date(String(data.date||'')+'T00:00:00+08:00');
+  if(!data.date||!/^\d{4}-\d{2}-\d{2}$/.test(data.date)||!Number.isFinite(day.getTime())||!Number.isFinite(num)||num<1000||!Number.isFinite(delta)||!Number.isFinite(value)||value<=0){fail('官方盤後資料尚未抓取成功；請使用下方原始來源查看。');return}
+  label.textContent='交易日：'+data.date;
+  score.textContent=num.toLocaleString('zh-TW',{minimumFractionDigits:2,maximumFractionDigits:2});
+  change.textContent=(delta>0?'+':'')+delta.toLocaleString('zh-TW',{minimumFractionDigits:2,maximumFractionDigits:2});
+  change.style.color=delta>0?'#b12b3b':delta<0?'#137a48':'#164d48';
+  volume.textContent=(value/1e8).toLocaleString('zh-TW',{maximumFractionDigits:1});
+  const age=(Date.now()-day.getTime())/86400000,updated=new Date(data.updated_at),hasError=Boolean(data.error);
+  const stale=age>5||!Number.isFinite(updated.getTime())||(Date.now()-updated.getTime())/86400000>2||hasError;
+  status.classList.toggle('warning',stale);
+  status.textContent=stale?'注意：最近交易日資料可能延遲或抓取異常，請核對交易日與官方原始來源。':'依官方資料取得的最近交易日盤後行情。週末與休市日不會有當日收盤價；不含盤中報價。';
+ }).catch(()=>fail('資料連線失敗，暫不顯示未驗證的收盤數字。'));
+}
 function initNewsFreshness(){
  const wrap=$('#news-grid'),label=$('#news-sync-label'),warn=$('#news-stale-warning');
  const make=(tag,text,cls)=>{const x=document.createElement(tag);if(cls)x.className=cls;x.textContent=text;return x};
@@ -404,7 +436,7 @@ $('#download-retire-csv').addEventListener('click',()=>{
  const file=new Blob(['\uFEFF'+[head.join(','),...lines].join('\r\n')],{type:'text/csv;charset=utf-8'});
  const url=URL.createObjectURL(file),a=document.createElement('a');a.href=url;a.download='家庭理財_退休逐年收支.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 });
-initRetirementWizard();initNewsFreshness();drawLesson();drawQuiz();calcRetire();calcCompound();calcInflation();go(location.hash.slice(1)||'home');
+initRetirementWizard();initMarketClose();initNewsFreshness();drawLesson();drawQuiz();calcRetire();calcCompound();calcInflation();go(location.hash.slice(1)||'home');
 })();
 </script>
 </body></html>
