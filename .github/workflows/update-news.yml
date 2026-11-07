@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/update-news.yml'
       - 'scripts/update_official_news.py'
+      - 'scripts/update_market_close.py'
 permissions:
   contents: write
 concurrency:
@@ -20,7 +21,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Refresh official finance headlines
-        run: python3 scripts/update_official_news.py
+        run: |
+          python3 scripts/update_official_news.py
+          python3 scripts/update_market_close.py
       - name: Commit refreshed data
         run: |
           if git diff --quiet -- data/news.json; then
