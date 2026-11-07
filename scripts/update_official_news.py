@@ -89,7 +89,15 @@ def main():
                 if date and now - date < dt.timedelta(days=7):
                     articles.append(article)
         unique = {x["link"]: x for x in articles}
-        result = {"updated_at": now.isoformat(timespec="seconds"), "articles": sorted(unique.values(), key=lambda x: x["date"], reverse=True)[:12]}
+        pools = {}
+        for item in sorted(unique.values(), key=lambda x: x["date"], reverse=True):
+            pools.setdefault(item["source"], []).append(item)
+        selected = []
+        for source, _, _ in FEEDS:
+            selected.extend(pools.get(source, [])[:6])
+        used = {item["link"] for item in selected}
+        selected.extend(item for item in sorted(unique.values(), key=lambda x: x["date"], reverse=True) if item["link"] not in used)
+        result = {"updated_at": now.isoformat(timespec="seconds"), "articles": sorted(selected[:12], key=lambda x: x["date"], reverse=True)}
     else:
         result = {"updated_at": old.get("updated_at"), "articles": old.get("articles", [])}
     result["attempted_at"] = now.isoformat(timespec="seconds")
