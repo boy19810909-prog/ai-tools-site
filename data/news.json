@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "date": "2026-11-13T09:49:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1d4504b2304a5",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "臺灣證券交易所訂於11月17日召開有價證券上市審議委員會第904次會議，將審議展逸國際企業(股)公司之申請股票創新板上市案"
+    },
+    {
+      "date": "2026-11-13T09:45:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1d44c484804a1",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "本週發行量加權股價指數漲幅約為10.01%，上市股票總市值達143.07兆元"
+    },
+    {
       "date": "2026-11-12T17:45:00+00:00",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
       "snippet": "",
@@ -34,20 +48,6 @@
       "snippet": "",
       "source": "臺灣證券交易所",
       "title": "證交所攜手標普全球能源發布永續洞察報告"
-    },
-    {
-      "date": "2026-11-12T06:25:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1ce6f664c0468",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "2026年第4季MSCI指數臺股權重調整結果"
-    },
-    {
-      "date": "2026-11-11T10:00:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1c9cdf141045d",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "享溫馨企業股份有限公司上市股票自本（115）年11月12日起得為融資融券交易"
     },
     {
       "date": "2026-10-28T18:00:00+00:00",
@@ -85,7 +85,7 @@
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
     }
   ],
-  "attempted_at": "2026-11-13T03:27:19+00:00",
+  "attempted_at": "2026-11-13T18:34:14+00:00",
   "failed_sources": [],
-  "updated_at": "2026-11-13T03:27:19+00:00"
+  "updated_at": "2026-11-13T18:34:14+00:00"
 }
