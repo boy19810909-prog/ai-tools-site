@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "date": "2026-11-16T11:07:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e40ae2a704c3",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "本國及第一上市公司(不含金融控股公司)除永冠-KY外，均已申報115年第3季財務報告"
+    },
+    {
+      "date": "2026-11-16T08:38:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e382ac1f04b3",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "國際AI投資前景正向 臺灣產業成長動能延續"
+    },
+    {
+      "date": "2026-11-16T06:05:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e2f6645404ab",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "上週外資在集中市場賣超967.87億元，賣超中鋼6.17萬張最多，另買超台玻24.72萬張最多"
+    },
+    {
       "date": "2026-11-13T09:49:00+00:00",
       "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1d4504b2304a5",
       "snippet": "",
@@ -27,27 +48,6 @@
       "snippet": "",
       "source": "臺灣證券交易所",
       "title": "臺灣證券交易所有價證券上市審議委員會審議通過鈺祥企業股份有限公司初次申請股票上市案"
-    },
-    {
-      "date": "2026-11-12T09:31:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1cf197dab047d",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "亞洲公司治理協會於台灣年會發布「CG Watch 2026」亞洲公司治理評鑑結果，臺灣蟬聯第三"
-    },
-    {
-      "date": "2026-11-12T09:11:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1cf06cffe0479",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "臺灣證券交易所針對光麗生技控股股份有限公司（光麗-KY，證券代號: 6431）違反重大訊息規定，處以新臺幣伍萬元之違約金"
-    },
-    {
-      "date": "2026-11-12T07:19:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1cea0baf6046c",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "證交所攜手標普全球能源發布永續洞察報告"
     },
     {
       "date": "2026-10-28T18:00:00+00:00",
@@ -85,7 +85,7 @@
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
     }
   ],
-  "attempted_at": "2026-11-16T02:48:13+00:00",
+  "attempted_at": "2026-11-16T21:05:14+00:00",
   "failed_sources": [],
-  "updated_at": "2026-11-16T02:48:13+00:00"
+  "updated_at": "2026-11-16T21:05:14+00:00"
 }
