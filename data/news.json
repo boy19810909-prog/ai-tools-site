@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "date": "2026-11-18T19:00:00+00:00",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "snippet": "",
+      "source": "美國聯準會（原文英文）",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026"
+    },
+    {
+      "date": "2026-11-18T10:34:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1ee394b290548",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "TLC BioSciences Corp.於115年11月18日送件申請股票第一上市"
+    },
+    {
+      "date": "2026-11-18T10:02:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1ee1bdc350542",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "證交所舉辦「提升企業價值計畫線上實作工作坊」，助力上市公司掌握計畫編製實務重點"
+    },
+    {
+      "date": "2026-11-18T08:39:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1edd070d6053c",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "116年7月5日起，千元以上股票升降單位調整為1元、盤中零股撮合縮短至1秒"
+    },
+    {
+      "date": "2026-11-18T08:29:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1edc6c5af0538",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "116年事前登記股東常會日期每日限額80家 證交所舉辦兩次模擬測試"
+    },
+    {
       "date": "2026-11-17T10:47:00+00:00",
       "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e91ed1990505",
       "snippet": "",
@@ -13,34 +48,6 @@
       "snippet": "",
       "source": "臺灣證券交易所",
       "title": "臺灣證券交易所有價證券上市審議委員會審議通過展逸國際企業股份有限公司初次申請股票於臺灣創新板(tib-創)上市案"
-    },
-    {
-      "date": "2026-11-17T10:37:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e915831504fd",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "證交所攜手福邦證券 共同舉辦推動優質企業啓航資本市場交流會"
-    },
-    {
-      "date": "2026-11-17T10:28:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e90d470a04f9",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "上市公司115年第3季財務報告形式審閱結果處置情形"
-    },
-    {
-      "date": "2026-11-17T09:57:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e8f0952104f5",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "宏于電機(證券代號：7869)採競價拍賣方式辦理承銷，於11月17日順利完成"
-    },
-    {
-      "date": "2026-11-17T09:51:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a1e8ec61a704f0",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "野村投信募集發行之野村亞洲傘型證券投資信託基金之亞洲科技主動式ETF及韓國科技30ETF，自115年11月19日起掛牌上市，並得辦理融資融券"
     },
     {
       "date": "2026-11-12T17:45:00+00:00",
@@ -76,16 +83,9 @@
       "snippet": "",
       "source": "美國聯準會（原文英文）",
       "title": "Federal Reserve issues FOMC statement"
-    },
-    {
-      "date": "2026-09-16T18:00:00+00:00",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-      "snippet": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 ",
-      "source": "美國聯準會（原文英文）",
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
     }
   ],
-  "attempted_at": "2026-11-18T04:29:06+00:00",
+  "attempted_at": "2026-11-18T19:25:55+00:00",
   "failed_sources": [],
-  "updated_at": "2026-11-18T04:29:06+00:00"
+  "updated_at": "2026-11-18T19:25:55+00:00"
 }
