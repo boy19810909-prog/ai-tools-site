@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "date": "2026-11-25T11:07:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21263d83805e3",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "資本市場服務團攜手PwC 推動優質企業啟航邁向資本市場交流會圓滿落幕"
+    },
+    {
+      "date": "2026-11-25T09:24:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21206026105df",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "證交所舉辦115年度證券商反詐騙評鑑活動頒獎典禮暨高階主管業務及反詐宣導會圓滿成功，20家證券商獲頒卓越獎，攜手織密證券業防詐網"
+    },
+    {
       "date": "2026-11-24T19:00:00+00:00",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
       "snippet": "",
@@ -34,20 +48,6 @@
       "snippet": "",
       "source": "臺灣證券交易所",
       "title": "上市ETF迎來新成員! 施羅德投信在台發行亞洲首檔主動式ETF「施羅德AI科技台股主動式ETF」，自115年11月26日起掛牌上市"
-    },
-    {
-      "date": "2026-11-23T10:20:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a207ec726605b0",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "證交所參與2026 Meet Taipei Neo Star Demo Show 頒發獎金予前三名得獎團隊 「臺灣創新板（tib-創）」主題館吸引熱烈迴響"
-    },
-    {
-      "date": "2026-11-23T09:13:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a207aec04605ac",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "上市公司115年第3季財務報告之每股淨值及累積虧損資料符合應暫停及恢復融資融券交易之名單"
     },
     {
       "date": "2026-11-18T19:00:00+00:00",
@@ -85,7 +85,7 @@
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026"
     }
   ],
-  "attempted_at": "2026-11-25T05:27:57+00:00",
+  "attempted_at": "2026-11-25T20:29:41+00:00",
   "failed_sources": [],
-  "updated_at": "2026-11-25T05:27:57+00:00"
+  "updated_at": "2026-11-25T20:29:41+00:00"
 }
