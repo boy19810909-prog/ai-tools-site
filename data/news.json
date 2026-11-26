@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "date": "2026-11-26T10:46:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a2177983d30619",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "施羅德投信在台發行亞洲首檔主動式ETF正式掛牌證交所 國際資產管理業者深化臺灣布局"
+    },
+    {
+      "date": "2026-11-26T09:38:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21738c8380615",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "證交所偕創新板企業參展2026臺灣-北美醫療生技產業論壇 助攻企業拓展國際業務"
+    },
+    {
       "date": "2026-11-25T11:05:00+00:00",
       "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21561da2e05e7",
       "snippet": "",
@@ -34,20 +48,6 @@
       "snippet": "",
       "source": "臺灣證券交易所",
       "title": "「115年度上市公司業務宣導會」圓滿落幕，洞悉最新法規趨勢 強化市場資訊揭露與透明度"
-    },
-    {
-      "date": "2026-11-24T10:00:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a20d009de205c9",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "政美應用(股)公司於115年11月24日送件申請股票上市"
-    },
-    {
-      "date": "2026-11-24T08:08:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a20c99892505c2",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "上市ETF迎來新成員! 施羅德投信在台發行亞洲首檔主動式ETF「施羅德AI科技台股主動式ETF」，自115年11月26日起掛牌上市"
     },
     {
       "date": "2026-11-18T19:00:00+00:00",
@@ -85,7 +85,7 @@
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026"
     }
   ],
-  "attempted_at": "2026-11-26T05:08:34+00:00",
+  "attempted_at": "2026-11-26T20:13:34+00:00",
   "failed_sources": [],
-  "updated_at": "2026-11-26T05:08:34+00:00"
+  "updated_at": "2026-11-26T20:13:34+00:00"
 }
