@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "date": "2026-11-27T09:54:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21c6d8346064c",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "貝萊德投信募集發行之貝萊德iShares安碩世界黃金礦業ETF傘型證券投資信託基金之貝萊德iShares安碩世界黃金ETF及貝萊德iShares安碩世界礦業ETF，自115年12月1日起掛牌上市，並得辦理融資融券。"
+    },
+    {
+      "date": "2026-11-27T09:40:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21c64c77f0648",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "證交所舉辦「員工獎酬與激勵策略高峰座談會」 助上市公司善用多元工具、強化長期競爭力"
+    },
+    {
+      "date": "2026-11-27T09:24:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21c5311880644",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "本週發行量加權股價指數漲幅約為9.09%，上市股票總市值達128.80兆元"
+    },
+    {
+      "date": "2026-11-27T08:19:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21c16a7e30633",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "證交所攜手台經院與資策會推出臺灣創新板(tib-創)半導體、汽車工業及生技醫療產業之洞察報告"
+    },
+    {
+      "date": "2026-11-27T08:10:00+00:00",
+      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21c0e48ce062d",
+      "snippet": "",
+      "source": "臺灣證券交易所",
+      "title": "ETF資訊揭露再升級！下單前看清折溢價，投資判斷更完善"
+    },
+    {
       "date": "2026-11-26T10:46:00+00:00",
       "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a2177983d30619",
       "snippet": "",
@@ -8,46 +43,11 @@
       "title": "施羅德投信在台發行亞洲首檔主動式ETF正式掛牌證交所 國際資產管理業者深化臺灣布局"
     },
     {
-      "date": "2026-11-26T09:38:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21738c8380615",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "證交所偕創新板企業參展2026臺灣-北美醫療生技產業論壇 助攻企業拓展國際業務"
-    },
-    {
-      "date": "2026-11-25T11:05:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21561da2e05e7",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "資本市場服務團攜手資誠 推動優質企業邁向資本市場座談會圓滿落幕"
-    },
-    {
-      "date": "2026-11-25T09:24:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a21206026105df",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "證交所舉辦115年度證券商反詐騙評鑑活動頒獎典禮暨高階主管業務及反詐宣導會圓滿成功，20家證券商獲頒卓越獎，攜手織密證券業防詐網"
-    },
-    {
       "date": "2026-11-24T19:00:00+00:00",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
       "snippet": "",
       "source": "美國聯準會（原文英文）",
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026"
-    },
-    {
-      "date": "2026-11-24T10:58:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a20d40686105d1",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "資本市場服務團再出擊 攜手安永推動優質企業啓航資本市場交流會圓滿完成"
-    },
-    {
-      "date": "2026-11-24T10:36:00+00:00",
-      "link": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a19afd9c01a20d2139b005cd",
-      "snippet": "",
-      "source": "臺灣證券交易所",
-      "title": "「115年度上市公司業務宣導會」圓滿落幕，洞悉最新法規趨勢 強化市場資訊揭露與透明度"
     },
     {
       "date": "2026-11-18T19:00:00+00:00",
@@ -85,7 +85,7 @@
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026"
     }
   ],
-  "attempted_at": "2026-11-27T05:05:49+00:00",
+  "attempted_at": "2026-11-27T20:00:07+00:00",
   "failed_sources": [],
-  "updated_at": "2026-11-27T05:05:49+00:00"
+  "updated_at": "2026-11-27T20:00:07+00:00"
 }
